@@ -8,7 +8,7 @@ angular.module('adminMockApp')
 
             },
             function getSuccess (data) {
-                console.log(data);
+                $scope.photoData = data;
             });
         };
         getData();
