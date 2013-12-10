@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('adminMockApp')
-    .controller('FaceCtrl', function ($scope, faceApi) {
+    .controller('FaceCtrl', function ($scope, faceApi, takePhoto) {
         console.log('dupa');
         var getData = function () {
             faceApi.get({
@@ -12,4 +12,10 @@ angular.module('adminMockApp')
             });
         };
         getData();
+        takePhoto.init();
+
+        $scope.takePhoto = function() {
+          console.log('click');
+          takePhoto.captureImage();
+        }
     });

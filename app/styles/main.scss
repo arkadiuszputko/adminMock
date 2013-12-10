@@ -34,3 +34,48 @@ body {
     width: auto;
     max-width: 940px;
 }
+
+canvas {
+  display: none;
+}
+
+body {
+  background: #f0f0f0;
+  font-size: 62.5%;
+}
+
+.video-container {
+  max-width: 500px;
+  padding: 10px;
+  background: #fff;
+  margin: 20px auto;
+  -webkit-box-shadow: 0 0 10px -2px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px -2px rgba(0,0,0,0.3);
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#preview {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#take-photo {
+  display: block;
+  max-width: 300px;
+  font-size: 2em;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  border: 0;
+  padding: 10px 20px;
+  margin: 0 auto;
+}
