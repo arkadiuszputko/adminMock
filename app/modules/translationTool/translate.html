@@ -1,0 +1,27 @@
+<div>
+    <ul class="nav nav-pills">
+        <li ng-class="{'active': showAll}">
+            <a href="#" ng-click="showAll($event)">All</a>
+        </li>
+        <li ng-class="{'active': !showAll}">
+            <a href="#" ng-click="showNotTranslated($event)">Only not translate</a>
+        </li>
+        <li class="pull-right">
+            <input class="search" placeholder="search" ng-model="frazeFilter"/>
+        </li>
+    </ul>
+    <table class="table">
+        <tbody>
+            <tr ng-repeat="fraze in frazes | filter:frazeFilter" ng-show="onlyNotTranslated(fraze)">
+                <td>{{fraze.english}}</td>
+                <td ng-show="fraze.polish">
+                    <a ng-click="editFraze(fraze, $event)" ng-hide="fraze.editing" href="#">
+                        {{fraze.polish}}
+                    </a>
+                    <textarea ng-show="fraze.editing" ng-blur="editFraze(fraze)">{{fraze.polish}}</textarea>
+                </td>
+                <td ng-hide="fraze.polish"><textarea></textarea></td>
+            <tr>
+        </tbody>
+    </table>
+</div>
