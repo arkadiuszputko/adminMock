@@ -1,6 +1,6 @@
-<button id="take-photo" ng-click="takePhoto()">Take photo</button>
-<section class="video-container">
+<section ng-hide="taken" class="video-container">
   <video id="video" autoplay></video>
 </section>
+<img ng-hide="!taken" src="http://yeastinfectionnomoreofficial.com/boubaker25/wp-content/themes/gonzo/images/no-image-blog-one.png" id="preview" />
 <canvas id="canvas-image"></canvas>
-<img src="http://yeastinfectionnomoreofficial.com/boubaker25/wp-content/themes/gonzo/images/no-image-blog-one.png" id="preview" />
+<button id="take-photo" ng-click="takePhoto()">Take photo</button>

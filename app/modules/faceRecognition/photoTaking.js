@@ -35,8 +35,8 @@ angular.module('photoTaking', [])
         function captureImage() {
             var canvas = document.getElementById('canvas-image'),
                 ctx = canvas.getContext('2d');
-            canvas.width = video.videoWidth / 4;
-            canvas.height = video.videoHeight / 4;
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
             ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
             dataURL = canvas.toDataURL();
             document.getElementById('preview').src = dataURL;
