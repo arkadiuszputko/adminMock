@@ -1,0 +1,15 @@
+<div>
+    <section ng-hide="taken" class="video-container">
+    <video id="video" autoplay=""></video>
+    </section>
+    <img ng-hide="!taken" src="http://yeastinfectionnomoreofficial.com/boubaker25/wp-content/themes/gonzo/images/no-image-blog-one.png" id="preview">
+    <canvas ng-hide="taken" id="canvas-image"></canvas>
+    <button ng-hide="taken" id="take-photo" ng-click="takePhoto()">Take photo</button>
+</div>
+<div ng-show="photoData">
+    <ul class="mood pull-left">
+        <li ng-show="photoData.gender.value === 'male'"><h2>This man is</h2></li>
+        <li ng-show="photoData.gender.value === 'female'"><h2>This woman is</h2></li>
+        <li><h1>{{photoData.mood.value}}</h1></li>
+    </ul>
+</div>

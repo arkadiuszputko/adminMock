@@ -1,0 +1,13 @@
+{
+  "name": "ui-utils",
+  "_cacheHeaders": {
+    "ETag": "\"9b21cabaea5eb2ae5a883ac458b67213\"",
+    "Content-Length": "47568",
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "_release": "e-tag:9b21cabae",
+  "main": "index",
+  "_source": "https://github.com/angular-ui/ui-utils",
+  "_target": "*",
+  "_originalSource": "https://github.com/angular-ui/ui-utils"
+}

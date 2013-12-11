@@ -1,0 +1,900 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=10">
+        <title>angular-ui/ui-utils · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="https://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
+    <meta name="hostname" content="github-fe138-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 1.9.3p194-tcs-github-tcmalloc (e1c0c3f392) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+    
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="D95CDF42:0911:CE772C:52A6E19B" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="ZPrYfEGxFB7FKHKPvBE+C8xYYHjbYrYHylvsW+ib16E=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-e0292731f704355302d725e675128e0981343934.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-64e16f723de2c4fe4624a509c8c2bda1ca8b9a5b.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+    
+
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-5970f5a0a3dcc441d5f7ff74326ffd59bbe9388e.js" type="text/javascript"></script>
+      <script src="https://github.global.ssl.fastly.net/assets/github-518475d6853e344678807d540e3f18bcb12690c0.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="af1e23191bcef450641d64897731278d">
+
+        <meta property="og:title" content="ui-utils"/>
+  <meta property="og:type" content="githubog:gitrepository"/>
+  <meta property="og:url" content="https://github.com/angular-ui/ui-utils"/>
+  <meta property="og:image" content="https://github.global.ssl.fastly.net/images/gravatars/gravatar-user-420.png"/>
+  <meta property="og:site_name" content="GitHub"/>
+  <meta property="og:description" content="ui-utils - Swiss-Army-Knife of AngularJS tools (with no external dependencies!)"/>
+
+  <meta name="description" content="ui-utils - Swiss-Army-Knife of AngularJS tools (with no external dependencies!)" />
+
+  <meta content="1530011" name="octolytics-dimension-user_id" /><meta content="angular-ui" name="octolytics-dimension-user_login" /><meta content="8419933" name="octolytics-dimension-repository_id" /><meta content="angular-ui/ui-utils" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="8419933" name="octolytics-dimension-repository_network_root_id" /><meta content="angular-ui/ui-utils" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/angular-ui/ui-utils/commits/master.atom" rel="alternate" title="Recent Commits to ui-utils:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fangular-ui%2Fui-utils">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="angular-ui/ui-utils"
+      data-branch="master"
+      data-sha="090b84d5bf1405f66a90dfd8d952a6b8a05b4c43"
+  >
+
+    <input type="hidden" name="nwo" value="angular-ui/ui-utils" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" title="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+      
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+    <a href="/login?return_to=%2Fangular-ui%2Fui-utils"
+    class="minibutton with-count js-toggler-target star-button tooltipped upwards"
+    title="You must be signed in to use this feature" rel="nofollow">
+    <span class="octicon octicon-star"></span>Star
+  </a>
+
+    <a class="social-count js-social-count" href="/angular-ui/ui-utils/stargazers">
+      373
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fangular-ui%2Fui-utils"
+        class="minibutton with-count js-toggler-target fork-button tooltipped upwards"
+        title="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/angular-ui/ui-utils/network" class="social-count">
+        282
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/angular-ui" class="url fn" itemprop="url" rel="author"><span itemprop="title">angular-ui</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/angular-ui/ui-utils" class="js-current-repository js-repo-home-link">ui-utils</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+
+      <div class="repository-with-sidebar repo-container with-full-navigation ">
+
+        <div class="repository-sidebar">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped leftwards" title="Code">
+        <a href="/angular-ui/ui-utils" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /angular-ui/ui-utils">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped leftwards" title="Issues">
+          <a href="/angular-ui/ui-utils/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /angular-ui/ui-utils/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>46</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped leftwards" title="Pull Requests">
+        <a href="/angular-ui/ui-utils/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /angular-ui/ui-utils/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>16</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped leftwards" title="Pulse">
+        <a href="/angular-ui/ui-utils/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /angular-ui/ui-utils/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Graphs">
+        <a href="/angular-ui/ui-utils/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /angular-ui/ui-utils/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Network">
+        <a href="/angular-ui/ui-utils/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /angular-ui/ui-utils/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+            <div class="only-with-full-nav">
+              
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/angular-ui/ui-utils.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/angular-ui/ui-utils.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/angular-ui/ui-utils" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/angular-ui/ui-utils" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="octicon help tooltipped upwards" title="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+
+              <a href="/angular-ui/ui-utils/archive/master.zip"
+                 class="minibutton sidebar-button"
+                 title="Download this repository as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description js-details-show">
+      <p>Swiss-Army-Knife of AngularJS tools (with no external dependencies!)</p>
+    </div>
+
+    <div class="repository-website js-details-show">
+      <p><a href="http://angular-ui.github.io/ui-utils/" rel="nofollow">http://angular-ui.github.io/ui-utils/</a></p>
+    </div>
+
+
+</div>
+
+<div class="capped-box overall-summary ">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/angular-ui/ui-utils/commits/master">
+            <span class="num">
+              <span class="octicon octicon-history"></span>
+              810
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/angular-ui/ui-utils/branches">
+          <span class="num">
+            <span class="octicon octicon-git-branch"></span>
+            5
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/angular-ui/ui-utils/releases">
+          <span class="num">
+            <span class="octicon octicon-tag"></span>
+            4
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+
+  <a href="/angular-ui/ui-utils/graphs/contributors">
+    <span class="num">
+      <span class="octicon octicon-organization"></span>
+      56
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/angular-ui/ui-utils/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f15501;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">99.8%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/angular-ui/ui-utils/search?l=css">
+                <span class="color-block language-color" style="background-color:#1f085e;"></span>
+                <span class="lang">CSS</span>
+                <span class="percent">0.2%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+  </div>
+
+</div>
+
+  <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats tooltipped downwards"
+     title="Show language statistics"
+     style="background-color:#1f085e">
+  <span class="language-color" style="width:99.8%; background-color:#f15501;" itemprop="keywords">JavaScript</span><span class="language-color" style="width:0.2%; background-color:#1f085e;" itemprop="keywords">CSS</span>
+  </a>
+
+
+
+<div class="file-navigation in-mid-page">
+    <a href="/angular-ui/ui-utils/compare" aria-label="Compare, review, create a pull request" class="minibutton compact primary tooltipped downwards" title="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/angular-ui/ui-utils/tree/alias"
+                 data-name="alias"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="alias">alias</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/angular-ui/ui-utils/tree/filter"
+                 data-name="filter"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="filter">filter</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/angular-ui/ui-utils/tree/ft-grunt-build-only"
+                 data-name="ft-grunt-build-only"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="ft-grunt-build-only">ft-grunt-build-only</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/angular-ui/ui-utils/tree/gh-pages"
+                 data-name="gh-pages"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="gh-pages">gh-pages</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/angular-ui/ui-utils/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/angular-ui/ui-utils/tree/v0.0.4"
+                 data-name="v0.0.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v0.0.4">v0.0.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/angular-ui/ui-utils/tree/v0.0.3"
+                 data-name="v0.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v0.0.3">v0.0.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/angular-ui/ui-utils/tree/v0.0.2"
+                 data-name="v0.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v0.0.2">v0.0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/angular-ui/ui-utils/tree/v0.0.1"
+                 data-name="v0.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="v0.0.1">v0.0.1</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/angular-ui/ui-utils" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">ui-utils</span></a></span></span><span class="separator"> / </span><form action="/login?return_to=%2Fangular-ui%2Fui-utils" class="js-new-blob-form tooltipped rightwards new-file-link" method="post" title="Sign in to make or propose changes"><span aria-label="Sign in to make or propose changes" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+
+
+<a href="/angular-ui/ui-utils/find/master"
+  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
+<div class="bubble files-bubble">
+
+
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/angular-ui/ui-utils/commit/1c5c5e1408c66af3ece6f1aeae6dc4ec9d33be02" class="message" data-pjax="true" title="Merge pull request #126 from angular-ui/alias
+
+feat(alias): Created a new ui-alias module for renaming/combining directives">Merge pull request</a> <a href="https://github.com/angular-ui/ui-utils/pull/126" class="issue-link" title="feat(alias): Created a new ui-alias module for renaming/combining directives">#126</a> <a href="/angular-ui/ui-utils/commit/1c5c5e1408c66af3ece6f1aeae6dc4ec9d33be02" class="message" data-pjax="true" title="Merge pull request #126 from angular-ui/alias
+
+feat(alias): Created a new ui-alias module for renaming/combining directives">from angular-ui/alias</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>feat(alias): Created a new ui-alias module for renaming/combining directives</pre></div>
+    <div class="commit-meta">
+      <span class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="1c5c5e1408c66af3ece6f1aeae6dc4ec9d33be02" data-copied-hint="copied!" title="Copy SHA"><span class="octicon octicon-clippy"></span></span>
+      <a href="/angular-ui/ui-utils/commit/1c5c5e1408c66af3ece6f1aeae6dc4ec9d33be02" class="sha-block" data-pjax>latest commit <span class="sha">1c5c5e1408</span></a>
+
+      <div class="authorship">
+        <img class="gravatar" height="20" src="https://0.gravatar.com/avatar/8dff46d1b5dbbb556859639ca88186ec?d=https%3A%2F%2Fidenticons.github.com%2Fa206a15140752a071bc64efdccc1f2cb.png&amp;r=x&amp;s=140" width="20" />
+        <span class="author-name"><a href="/ProLoser" data-skip-pjax="true" rel="contributor">ProLoser</a></span>
+        authored <time class="js-relative-date updated" datetime="2013-11-25T01:09:28-08:00" title="2013-11-25 01:09:28">November 25, 2013</time>
+
+      </div>
+    </div>
+  </div>
+
+  <table class="files" data-pjax>
+
+    
+<tbody class=""
+  data-url="/angular-ui/ui-utils/file-list/master">
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/tree/master/demo" class="js-directory-link" id="fe01ce2a7fbac8fafaed7c982a04e229-6f5509d5cb6676e0640a2e16962914db7b0f8a00" title="demo">demo</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/be28d7d31c8eec0a878caf873b30e25df49a471f" class="message" data-pjax="true" title="fixes for the demo page">fixes for the demo page</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-11-23T18:40:02-08:00" title="2013-11-23 18:40:02">November 23, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/tree/master/modules" class="js-directory-link" id="0eb9b3af2e4a00837a1b1a854c9ea18c-a93633d205c686c904e2b77b7256754a0ec602b4" title="modules">modules</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/1c5c5e1408c66af3ece6f1aeae6dc4ec9d33be02" class="message" data-pjax="true" title="Merge pull request #126 from angular-ui/alias
+
+feat(alias): Created a new ui-alias module for renaming/combining directives">Merge pull request</a> <a href="https://github.com/angular-ui/ui-utils/pull/126" class="issue-link" title="feat(alias): Created a new ui-alias module for renaming/combining directives">#126</a> <a href="/angular-ui/ui-utils/commit/1c5c5e1408c66af3ece6f1aeae6dc4ec9d33be02" class="message" data-pjax="true" title="Merge pull request #126 from angular-ui/alias
+
+feat(alias): Created a new ui-alias module for renaming/combining directives">from angular-ui/alias</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-11-25T01:09:28-08:00" title="2013-11-25 01:09:28">November 25, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/tree/master/test" class="js-directory-link" id="098f6bcd4621d373cade4e832627b4f6-e62a7d6e3c76aa5d54e5d7320d1ac634c284a8e2" title="test">test</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/dcf03dabdda3cbf25eb20af03719bf03d19ffa78" class="message" data-pjax="true" title="Updated karma + config
+
+Tested and works">Updated karma + config</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-09-27T14:49:43-07:00" title="2013-09-27 14:49:43">September 27, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/blob/master/.bowerrc" class="js-directory-link" id="adba2f4daaaceb7e9889870260a0012e-9b2abeb660ab6c38a2378afd3a2f31bbca10cac3" title=".bowerrc">.bowerrc</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/67a86002f1e3d79dbd7f58c87b6dc1900d0043b1" class="message" data-pjax="true" title=".bowerrc file created">.bowerrc file created</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-10-30T08:23:48-07:00" title="2013-10-30 08:23:48">October 30, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-6cb1e35b9c940ff719080e61a348fdd921592440" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/209c0f5acfefc6e3b2aa9d5a4ec674ca25c9b926" class="message" data-pjax="true" title="[M] Doc refacto">[M] Doc refacto</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-07-29T11:53:39-07:00" title="2013-07-29 11:53:39">July 29, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/blob/master/.travis.yml" class="js-directory-link" id="354f30a63fb0907d4ad57269548329e3-5437b0eac828b9d3ca317811f245d90ad177aad2" title=".travis.yml">.travis.yml</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/209c0f5acfefc6e3b2aa9d5a4ec674ca25c9b926" class="message" data-pjax="true" title="[M] Doc refacto">[M] Doc refacto</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-07-29T11:53:39-07:00" title="2013-07-29 11:53:39">July 29, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/blob/master/CONTRIBUTING.md" class="js-directory-link" id="6a3371457528722a734f3c51d9238c13-f8ffc6e94d9e2dfafd111189713983f9bd885e32" title="CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/ff5e5b4fa9f97997d6f9c96da0945acb452a35cf" class="message" data-pjax="true" title="delete(if): Removed uiIf since ngIf has been added to core
+
+Fixes #29">delete(if): Removed uiIf since ngIf has been added to core</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-05-13T15:21:33-07:00" title="2013-05-13 15:21:33">May 13, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/blob/master/LICENSE" class="js-directory-link" id="9879d6db96fd29134fc802214163b95a-dfc5e0ca17cc295303531d19e411c865d0fc5a52" title="LICENSE">LICENSE</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/43d8be585c5490c84a544239aa80f3af72c8669c" class="message" data-pjax="true" title="SEXY RUSSIAN LICENSES FOR YOUR #69 FIX PLEEASURES">SEXY RUSSIAN LICENSES FOR YOUR</a> <a href="https://github.com/angular-ui/ui-utils/issues/69" class="issue-link" title="UI-Mask behavior on data editing">#69</a> <a href="/angular-ui/ui-utils/commit/43d8be585c5490c84a544239aa80f3af72c8669c" class="message" data-pjax="true" title="SEXY RUSSIAN LICENSES FOR YOUR #69 FIX PLEEASURES">FIX PLEEASURES</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2012-07-18T00:58:36-07:00" title="2012-07-18 00:58:36">July 18, 2012</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-e258f9a96ae094b8796db1380506328df1bb2920" title="README.md">README.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/5173ee01bc985c039c69bd7bf2611d1a966ee3ae" class="message" data-pjax="true" title="Update README.md
+
+fix karma conf path">Update README.md</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-05-07T22:36:44-07:00" title="2013-05-07 22:36:44">May 07, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/blob/master/bower.json" class="js-directory-link" id="0a08a7565aba4405282251491979bb6b-6a6407089a848a41a3d852b97047d96b3dcdd81b" title="bower.json">bower.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/fa7e14e6cb254b3166ff36060f30ed69b54e7152" class="message" data-pjax="true" title="v0.0.4">v0.0.4</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-07-02T14:34:29-07:00" title="2013-07-02 14:34:29">July 02, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/blob/master/gruntFile.js" class="js-directory-link" id="ae814e75a742011a5bbda8234b28def3-d7c20010bc6237c011772f4c64b5800e09ca49b1" title="gruntFile.js">gruntFile.js</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/0898dbb76b2d16317a20e1c548c7fe91789a9f04" class="message" data-pjax="true" title="[FIX] UI.Include demo bug">[FIX] UI.Include demo bug</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-07-31T05:39:18-07:00" title="2013-07-31 05:39:18">July 31, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/blob/master/package.json" class="js-directory-link" id="b9cfc7f2cdf78a7f4b91a753d10865a2-b773e5bed77d3242a694e43d57adecc47fd737a5" title="package.json">package.json</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/angular-ui/ui-utils/commit/dcf03dabdda3cbf25eb20af03719bf03d19ffa78" class="message" data-pjax="true" title="Updated karma + config
+
+Tested and works">Updated karma + config</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" datetime="2013-09-27T14:49:43-07:00" title="2013-09-27 14:49:43">September 27, 2013</time></span></td>
+    </tr>
+</tbody>
+
+  </table>
+</div>
+
+  <div id="readme" class="clearfix announce instapaper_body md">
+    <span class="name">
+      <span class="octicon octicon-book"></span>
+      README.md
+    </span>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="angularui---the-companion-suite-for-angularjs" class="anchor" href="#angularui---the-companion-suite-for-angularjs"><span class="octicon octicon-link"></span></a>AngularUI - The companion suite for AngularJS</h1>
+
+<hr><p><a href="https://travis-ci.org/angular-ui/ui-utils"><img src="https://travis-ci.org/angular-ui/ui-utils.png?branch=master" alt="Build Status" style="max-width:100%;"></a></p>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<h3>
+<a name="requirements" class="anchor" href="#requirements"><span class="octicon octicon-link"></span></a>Requirements</h3>
+
+<ul>
+<li>
+<strong>AngularJS v1.0.0+</strong> is currently required.</li>
+<li>
+<strong>jQuery</strong>* Until the refactor is complete, some directives still require jQuery</li>
+</ul><h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Add the specific modules to your dependencies, or add the entire lib by depending on <code>ui.utils</code></p>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myApp'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'ui.keypress'</span><span class="p">,</span> <span class="s1">'ui.event'</span><span class="p">,</span> <span class="p">...])</span>
+<span class="c1">// or if ALL modules are loaded along with modules/utils.js</span>
+<span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'myApp'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'ui.utils'</span><span class="p">])</span>
+</pre></div>
+
+<p>Each directive and filter is now it's own module and will have a relevant README.md in their respective folders</p>
+
+<h2>
+<a name="development" class="anchor" href="#development"><span class="octicon octicon-link"></span></a>Development</h2>
+
+<p>At this time, we do not have a build script. You must include all <code>.js</code> files you wish to work on.
+We will likely be adding a <code>Gruntfile.js</code> in the near future for this</p>
+
+<h3>
+<a name="requirements-1" class="anchor" href="#requirements-1"><span class="octicon octicon-link"></span></a>Requirements</h3>
+
+<ol>
+<li><p>Install <a href="http://nodejs.org/">Node.js</a> and NPM (should come with)</p></li>
+<li>
+<p>Install global dependencies <code>grunt-cli</code>, <code>bower</code>, and <code>karma</code>:</p>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>npm install -g karma grunt-cli bower
+</pre></div>
+</li>
+<li>
+<p>Install local dependencies:</p>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>npm install
+<span class="nv">$ </span>bower install
+</pre></div>
+</li>
+</ol><h3>
+<a name="running-tests" class="anchor" href="#running-tests"><span class="octicon octicon-link"></span></a>Running Tests</h3>
+
+<p>Make sure all tests pass in order for your Pull Request to be accepted</p>
+
+<p>You can choose what browsers to test in: <code>Chrome,ChromeCanary,Firefox,PhantomJS</code></p>
+
+<div class="highlight highlight-bash"><pre><span class="nv">$ </span>karma start --browsers<span class="o">=</span>Chrome,Firefox <span class="nb">test</span>/karma.conf.js --single-run<span class="o">=</span><span class="nb">true</span>
+</pre></div></article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2013 <span title="0.03088s from github-fe138-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/angular-ui/ui-utils/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+
