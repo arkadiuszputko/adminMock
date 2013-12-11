@@ -1,7 +1,7 @@
 angular.module('adminMockApp.uploadImApi', ['ngResource'])
     .factory('uploadImApi', function($resource){
         return $resource(
-            'http://uploads.im/api',
+            'http://lukaszl.dev.xyo.net:8080/',
             {},
             {
                 post: {

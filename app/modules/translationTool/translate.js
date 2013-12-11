@@ -1,8 +1,9 @@
 'use strict';
 
 angular.module('adminMockApp')
-    .controller('TranslateCtrl', function ($scope) {
+    .controller('TranslateCtrl', function ($scope, $rootScope) {
         $scope.showAll = true;
+        $rootScope.translation = true;
 
         $scope.showAll = function (e) {
             e.preventDefault();
