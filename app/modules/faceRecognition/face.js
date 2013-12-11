@@ -7,10 +7,12 @@ angular.module('adminMockApp')
                 urls: image
             },
             function getSuccess (data) {
-                $scope.photoData = data;
+                $scope.photoData = data.photos[0].tags[0].attributes;
             });
         };
         takePhoto.init();
+
+        $scope.imageUrl = false;
 
         $scope.taken = false;
         $rootScope.translation = false;
@@ -30,7 +32,7 @@ angular.module('adminMockApp')
             uploadImApi.post(
             image,
             function postSuccess (data) {
-                console.log(data.url);
+                $scope.imageUrl = data.url;
                 getData(data.url);
             });
         }
