@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('adminMockApp', ['ngRoute', 'ngTable', 'adminMockApp.faceApi', 'photoTaking', 'adminMockApp.uploadImApi'])
+angular.module('adminMockApp', ['ngRoute', 'adminMockApp.faceApi', 'photoTaking', 'adminMockApp.uploadImApi'])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/', {
